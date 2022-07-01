@@ -1,0 +1,9 @@
+version: '3.4'
+services:
+  reclame_crawler:
+    build:
+      context: .
+    image: reclameaqui:crawler
+    volumes:
+      - ./dataset:/app/dataset
+    entrypoint: /app/bootstrap.sh

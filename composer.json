@@ -1,0 +1,23 @@
+{
+    "name": "jacsonsantos/reclameaqui-crawler",
+    "description": "Extrai reclamações do ReclameAqui e salva no CSV",
+    "authors": [{
+        "name": "Jacson Santos",
+        "email": "jacsonk47@gmail.com",
+        "homepage": "https://jacsonsantos.com.br",
+        "role": "Developer"
+    }],
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ReclameAqui\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
